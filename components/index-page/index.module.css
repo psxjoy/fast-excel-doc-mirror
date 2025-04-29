@@ -1,0 +1,94 @@
+/* 添加字体声明 */
+/* @font-face {
+  font-family: 'YuanYingHeiTi';
+  src: url('https://cdn.chat2db-ai.com/website/font/YuanYingHeiTi.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Segoe UI", "Microsoft YaHei", "PingFang SC", -apple-system,
+    BlinkMacSystemFont, sans-serif;
+}
+
+.hero {
+  padding: 4rem 1rem 8rem;
+  text-align: center;
+  background: #4039e9;
+  background: linear-gradient(to bottom, #4039e9, #3632d1);
+  color: #fff;
+  margin-bottom: 4rem;
+}
+
+.hero .title {
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: system-ui, -apple-system, "Segoe UI", "Microsoft YaHei", "PingFang SC", 
+    BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+}
+
+.hero .subtitle {
+  font-size: max(16px, min(18px, 2vw));
+  max-width: min(800px, 90%);
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+  font-weight: 700;
+}
+
+.hero .buttonGroup {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero .primaryButton,
+.hero .secondaryButton {
+  display: inline-flex;
+  padding: 0.75rem 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 50px;
+  border: 2px solid #000;
+  background-color: #6eea29;
+  color: #000;
+  font-weight: 700;
+  font-size: 1rem;
+  -webkit-filter: drop-shadow(4px 6px 0px #000);
+  filter: drop-shadow(4px 6px 0px #000);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.hero .primaryButton:hover {
+  background-color: #62c829;
+  transform: translateY(2px);
+}
+
+@media screen and (max-width: 768px) {
+  .hero .title {
+    font-size: 32px;
+  }
+  
+  .hero .subtitle {
+    font-size: 16px;
+  }
+  
+  .hero .buttonGroup {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hero .primaryButton,
+  .hero .secondaryButton {
+    width: 80%;
+    max-width: 300px;
+  }
+}
