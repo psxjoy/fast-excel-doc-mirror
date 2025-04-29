@@ -1,4 +1,4 @@
-import { useRouter } from "nextra/hooks";
+import { useRouter } from 'next/router';
 import styles from "./index.module.css";
 import { useState, useEffect, useRef } from "react";
 
