@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "./index.module.css";
-import { useRouter } from "nextra/hooks";
+import { useRouter } from 'next/router';
 import { useTranslation } from "../../hooks/useTranslation";
 
 const Navbar = () => {
