@@ -1,4 +1,4 @@
-  import { useRouter } from "nextra/hooks";
+  import { useRouter } from 'next/router';
 import zhCN from "../locales/zh-CN";
 import en from "../locales/en-US";
 import zhTW from "../locales/zh-TW";
