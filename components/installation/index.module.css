@@ -1,0 +1,42 @@
+.installation {
+  padding: 4rem 2rem;
+  background: #ffffff;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #333;
+  /* -webkit-text-stroke: 8px black;
+  paint-order: stroke fill;
+  text-shadow: 2px 2px 0px black; */
+}
+
+.sectionSubtitle {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 3rem;
+}
+
+.codeBlocks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (max-width: 768px) {
+  .installation {
+    padding: 4rem 0;
+  }
+
+  .codeBlocks {
+    grid-template-columns: 1fr;
+  }
+}
